@@ -8,7 +8,15 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Escolha uma questão de 1 a 5!");
+        System.out.println(">Escolha uma questão de 1 a 5!<");
+        System.out.println("-------------------------------");
+        System.out.println("    1 - Pessoa Mais Velha");
+        System.out.println("    2 - Salário Médio");
+        System.out.println("    3 - Retangulo");
+        System.out.println("    4 - Aumento de Funcionário");
+        System.out.println("    5 - Notas de Aluno");
+        System.out.println("-------------------------------");
+
         int questao = scan.nextInt();
 
 
